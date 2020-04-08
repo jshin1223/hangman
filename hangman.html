@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman!</title>
+        <link rel="stylesheet" href="styles/style.css">
+        
+    </head>
+    <body>
+        <div class="gamearea" id="gamearea">
+            <div class="drawRevealedLetters" id="drawRevealedLetters">
+                <p id="drawRevealedLetters">
+    
+                </p>
+            </div>
+            <div class="incorrectguess" id="incorrectguess">
+                <p id="incorrect">
+                   
+                </p>
+            </div>
+            <div class="guessingform" id="guessingform">
+                <form id="guessingform">
+                    <label for="letterInput">Please guess a letter.</label>
+                    <input type="text" id="letterInput" name="letterInput"/>
+                    <input type="submit"/>
+                </form>
+            </div>
+            <div class="hangingman" id="hangingman">
+                <img src="images/strike-0.png" id="hangedman" />
+            </div>
+        </div>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>

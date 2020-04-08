@@ -1,0 +1,65 @@
+div.gamearea {
+    position: absolute;
+    margin: 5px 5px 5px 5px; 
+    background-color: white;
+    color: white;
+    width: 90%;
+    height: 700px;
+    font-size: 20px;
+}
+
+#letterInput {
+    font-size: 20px;
+    height: 30px;
+    width: 90px
+}
+
+input[type=submit]{
+    border: black;
+    font-size: 20px; 
+    height: 30px;
+    width: 90px
+  }
+
+#incorrectHead{
+    font-size: 20px;
+}
+
+div.incorrectguess {
+    position: inherit;
+    margin-top: 10px; 
+    background-color: red;
+    color: white;
+    width: 20%;
+    height: 70px;
+    font-size: 25px;
+}
+
+div.drawRevealedLetters {
+    position: inherit;
+    margin-top: 85px; 
+    background-color: blue;
+    color: white;
+    width: 50%;
+    height: 70px;
+    font-size: 20px;
+}
+div.guessingform {
+    position: inherit;
+    margin-top: 160px; 
+    background-color: green;
+    color: white;
+    width: 20%;
+    height: 75px;
+    font-size: 25px;
+}
+div.hangingman {
+    position: inherit;
+    margin-left: 30%;
+    margin-right: 20px;
+    margin-top: 10px; 
+    background-color: white;
+    color: black;
+    width: 600px;
+    height: 590px;
+}
